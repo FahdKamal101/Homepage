@@ -1,0 +1,87 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+div img {
+  width: 100%;
+  height: 100%;
+  margin-left: 3px;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.example { 
+  font-weight: bold; font-family: Parkavenue, cursive; font-size: 40px;
+  }
+
+.eg { 
+  font-weight: bold; 
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  left: 10%;
+  }
+
+  .one{
+    display: flex;
+    width: 100%;
+    margin-top: -2%;
+      margin-left: 0%;
+      margin-right: 0%;
+      height: 100%;
+  }
+ 
+  .topcard{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0%;
+      margin-left: 0%;
+      margin-right: 0%;
+  }
+
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold; font-size: 20px;
+    color:white;
+    font-size:200%;
+    text-decoration: none;
+  }
+
+  .example-spacer {
+  flex: 1 1 auto;
+}
+
+  .tool{
+    color:lightblue;
+  padding-left: 0in;
+  }
+  
